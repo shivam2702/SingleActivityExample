@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888888"
+    android:orientation="vertical"
+    tools:context=".fragment.UpperFragment">
+
+    <Button
+        android:id="@+id/upperItem"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="Open item in upper container" />
+
+    <Button
+        android:id="@+id/fullScreenItem"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="16dp"
+        android:text="Open item in full screen container" />
+
+
+</LinearLayout>
